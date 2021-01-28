@@ -1,0 +1,122 @@
+/*    >>>>>Servicios<<<<<     */
+$colorFondo: #7FFFDA;
+$colorSombra: #42FF66;
+$sombraCaja: 0px 5px 15px;
+$colorVerde: #42FF66;
+
+.Parrafo1Servicio  {
+ 
+  font-size: 0.8em;
+  margin-left: 5px;
+margin-right: 5px;
+background-image: linear-gradient(to bottom, lightblue, $colorFondo);
+}
+.Parrafo2Servicio {
+ background-image: linear-gradient(to top, lightblue, $colorFondo);
+font-size: 0.8em;
+margin-right: 5px;
+}
+.Parrafo3Servicio  {
+  background-image: linear-gradient(to bottom, lightblue, $colorFondo);
+  font-size: 0.8em;
+  margin-right: 5px;
+}
+.h2caja {
+  background-color: lightblue;
+  font-size: 1.5em;
+  margin-left: 5px;
+margin-right: 5px;
+}
+
+.h2cajaexc {
+  background-color: $colorFondo;
+  font-size: 1.5em;
+margin-right: 5px;
+ }
+
+ .h2cajaAlqequi {
+  background-color: lightblue;
+  font-size: 1.5em;
+  
+margin-right: 5px;
+ }
+
+
+ .escalar:hover{
+  transform: translate(300px, -100px) scale(1);
+  transition: 2s;
+}
+
+.escalar2:hover{
+  transform:  scale(2);
+  transition: 2s;
+}
+
+.escalar3:hover{
+  transform: translatex(-200px) scale(2);
+  transition: 2s;
+}
+.cajaPrecios   {
+    width: 160px;
+    margin-left: 10px;
+    background-color: lightblue;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+
+  
+
+.cajaPrecios:hover {
+        border-radius: 15px;
+    background-color: $colorFondo;
+    text-align: center; 
+
+  transition: 1s;
+  
+     }
+
+
+.linkPrecios:link {
+  text-decoration:  none;
+   font-family: 'Roboto';
+margin-bottom: 20px;
+}
+
+.linkPrecios:hover {
+  color: $colorSombra;  
+  transition: 1s;  
+}
+
+.linkPrecios:active {
+  color: yellow;
+}
+
+.btn {
+  margin-bottom: 15px;
+}
+
+
+.imgExcurciones {
+  width: 200px;
+  height:135px;
+  box-shadow:  $sombraCaja $colorSombra;
+  border-radius: 10px;
+  margin: 7px;
+
+  
+
+ }
+
+ .imgalojamiento {
+  width: 350px;
+  height: 240px;
+  border-radius: 10px;
+  box-shadow: $sombraCaja $colorSombra;
+  margin: 7px;
+ }
+
+ 
+
+ 

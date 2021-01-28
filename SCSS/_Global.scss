@@ -1,0 +1,61 @@
+/*     >>>>>>Global<<<<<<        */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+$estacion: otoño;
+body {
+
+  @if $estacion == verano {
+    background-image: url("../Imagenes/verano.jpg");
+  } 
+
+  @else if $estacion == otoño {
+    background-image: url("../Imagenes/otoño1.jpg");
+
+  } 
+
+  @else if $estacion== primavera{
+    background-image: url("../Imagenes/Primavera1.jpg");
+  } 
+  @else if $estacion== invierno {
+    background-image: url("../Imagenes/invierno1.jpg");
+  }
+
+   background-attachment: fixed;
+     background-size: cover;
+}
+
+   
+  
+//body {
+ // background-image: url("../Imagenes/invierno.jpg");
+    
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+  }
+  p {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 0.8em;
+    letter-spacing: 3px;
+  }
+
+  .th1 {
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 0 10px  35px $colorVerde;
+  color: white;
+ }
+
+ .th2 {
+  text-align: center;
+  color: white;
+  text-shadow: 0  10px  15px $colorVerde;
+   }
+ 

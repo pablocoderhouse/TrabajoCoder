@@ -1,0 +1,92 @@
+/*     >>>>>Index<<<<<      */
+
+$colorGris: #CFD8DC;
+$colorVerde: #42FF66;
+
+$estacion: verano;
+.fondoParrafo {    
+
+	@if $estacion == verano {
+		background-color: $colorGris;
+	}	
+
+	@else if $estacion == otoño {
+		background-color: yellow;	
+
+	} 
+
+	@else if $estacion== primavera{
+		background-color: orange;
+	}	
+	@else if $estacion== invierno {
+		background-color: white;
+	}
+	 
+	
+}
+
+.parrafo {
+		border: solid none;  
+		font-size: 18px;
+		margin-left: 10px;
+    }
+				
+
+
+.Negritap {
+	font-size: 22px;
+	box-shadow: 0  10px  15px $colorVerde;
+	border-radius: 10px;
+				}
+		
+
+
+.imagen {
+  border: solid none; 
+  padding: 20px;   
+  background-color: $colorVerde;
+
+}
+
+.imagen__tamaño {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0  10px  15px $colorGris;
+  
+}
+
+.Tituloh1 {
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 0 10px  35px $colorVerde;
+}
+.Tituloh2 {
+  text-align: center;
+  color: white;
+  text-shadow: 0  10px  15px $colorVerde;
+  
+}
+
+#margenontacto {
+	margin-left: 20px;
+	padding-top: 20px;
+}
+
+
+
+
+
+
+
+/*Mensaje colapsado "Montaña Verde" Index*/
+
+.btn {
+  margin-top: 10px;
+  background-color: #42FF66;
+}
+.card {
+
+  background-color: lightblue;
+}
+

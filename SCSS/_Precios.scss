@@ -1,0 +1,56 @@
+/*       >>>>>Precios<<<<<          */
+
+
+  table {
+     border: 1px solid blue;
+     width: 100%; 
+     border-collapse: collapse;
+     margin-top: 20px;
+     margin-left: 20px;
+    }
+
+
+    tr {
+  background-color: #CFD8DC;
+  }
+
+
+         th {
+        border: 1px solid blue;
+        color: white; 
+        font-size: 24px; 
+        background-color: #42FF66;
+        padding-top: 20px;
+        padding-bottom: 20px; 
+        width: 100px;
+        text-align: center;
+       }
+
+      td {
+        border: 1px solid blue;
+        color: black; 
+        font-size: 18px;
+        text-align: center; 
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 0.8em;
+        letter-spacing: 3px;
+      }
+
+      ul {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    list-style-type: none;
+    word-spacing: 50px;
+   
+  }
+
+  .elemento {
+
+  	font-weight: bold;
+    font-size: 1rem;
+  }
